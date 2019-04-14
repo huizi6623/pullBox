@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.pos1{
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    float: left;
+}
+.pos2{
+    width: 50px;
+    height: 50px;
+    background: url(images/back.png) no-repeat top left / cover;
+    float: left;
+}
+.pos3{
+    width: 50px;
+    height: 50px;
+    background: url(images/goal.png) no-repeat top left / cover;
+    float: left;
+}
+.pos0{
+    width: 50px;
+    height: 50px;
+    background: url(images/back2.png) no-repeat top left / cover;
+    float: left;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(images/box.png) no-repeat top left / 100% 100%;
+}
+
+.person{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(images/person2.png) no-repeat top left / 100% 100%;
+}
+
+#select {
+    margin: 0 auto;
+    text-align: center;
+}
+select{
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #c1b22e;
+    border-radius: 5px;
+}
